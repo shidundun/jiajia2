@@ -1,0 +1,16 @@
+第一次新建模块全部执行一次
+先制定目录位置
+echo "# jiajia2" >> README.md（重定向）
+git init(产生.git文件)
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/shidundun/jiajia2.git
+git push -u origin master
+
+
+
+git pull https://github.com/shidundun/jiajia2.git(线上代码拉到本地，保证线上代码最新，用于多人合作)
+git clone https://github.com/shidundun/jiajia2.git（复制别人代码）
+git add /c/Users/weilongyu/Desktop/git.txt
+git commit -m "first commit"（预上线）
+git push -u origin master（正式提交）
